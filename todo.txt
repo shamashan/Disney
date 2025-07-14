@@ -1,0 +1,17 @@
+- lable of the card
+- responisive
+- parcs card
+
+
+ <section title="hero">
+    <div class="heroBackground">
+      <div class="heroBox1">
+        <img class="frontHeroImage" src="images/lilo_stitch_logo.png" alt="Hero Logo">
+        <p> Au cinema le 21 mai</p>
+        <a href="" class="mainButton">RESERVER VOS BILLETS</a>
+        <a href="" class="secondaryButton">EN SAVOIR PLUS</a>
+      </div>
+      <div class="heroBox2">
+      </div>
+    </div>
+  </section>

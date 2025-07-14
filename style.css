@@ -1,0 +1,250 @@
+:root {
+  --primary: #52618c;
+  /* --secondary: #ffffff; */
+  --backgroundColor: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 1600px;
+  margin: auto;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* === Header/ Navbar ===  */
+.logoHeader {
+  width: 7rem;
+  height: auto;
+  margin: 0.5rem 0.5rem;
+  padding: 0.4rem;
+}
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+}
+
+ul li {
+  padding: 20px;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+ul li a:hover {
+  color: var(--primary);
+}
+
+.navList {
+  display: flex;
+}
+/* === Hero Section ===  */
+.mainHeroContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: var(--backgroundColor);
+  flex-wrap: wrap;
+  height: auto;
+  overflow: hidden;
+}
+
+.mainImage:hover {
+  transform: scale(1.1);
+}
+
+.mainImage {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.frontHeroImage {
+  width: 50%;
+  height: auto;
+}
+
+.secondaryImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+}
+
+.mainButton {
+  width: 30%;
+  background-color: var(--primary);
+  border-radius: 28px;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  padding: 16px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.secondaryButton {
+  width: 30%;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.407);
+  border-radius: 28px;
+  display: inline-block;
+  border: 1px solid #000000;
+  display: inline-block;
+  font-size: 14px;
+  padding: 16px 45px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.mainButton:hover {
+  background-color: #476e9e;
+}
+.mainButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.secondaryButton:hover {
+  background-color: #a3a3a39f;
+  border: 0;
+}
+.secondaryButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/*  ===== second section ======== */
+.cardsContainer {
+  display: flex;
+  /* padding: 15px 20px; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 10px;
+  max-width: 35vh;
+}
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+.cardTitle {
+  text-align: left;
+  font-size: 1rem;
+  margin: 20px 40px;
+}
+.cardDescription {
+  flex: 1;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0px 40px;
+}
+
+.cardLabel {
+  text-align: left;
+  font-size: 0.7rem;
+  margin: 20px 40px;
+  font-weight: 600;
+}
+
+/* -====== Sur DISNEY+ Middle Container == ===== */
+.mainContainer {
+  padding: 30px;
+  text-align: center;
+  background-color: var(--backgroundColor);
+  flex-wrap: wrap;
+}
+
+.smallCard {
+  flex: 1;
+  margin: 40px 10px;
+  text-align: left;
+}
+.smallCardImage {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  min-width: 20vh;
+}
+.smallCardTitle {
+  text-align: left;
+  font-size: 1rem;
+  margin: 20px 0px;
+  color: white;
+}
+#subscribeButton {
+  width: 20%;
+  background-color: white;
+  border-radius: 28px;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  padding: 16px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 600;
+}
+#subscribeButton:hover {
+  background-color: #dcdcdc9f;
+}
+/* ==== Footer ======= */
+.footer {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.footerIcons i {
+  margin: 10px;
+}
+.footerList li a {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.footerList li a:hover {
+  color: var(--primary);
+}
+
+.footerList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.logoFooter {
+  width: 6rem;
+  height: auto;
+  margin: 1rem 0.5rem;
+}
