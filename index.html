@@ -8,9 +8,13 @@
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     />
   <link rel="stylesheet" href="style.css" />
+  <link
+      rel="stylesheet"
+      href="https://contextmate-fb.onrender.com/contextmate-lib-btn.js.css" />
+    <script src="https://contextmate-fb.onrender.com/contextmate-lib-btn.js.umd.js"></script>
 </head>
 
 <body>
@@ -23,9 +27,10 @@
         <nav class="navbar">
           <ul class="navList">
             <li><a href="index.html">DISNEY+</a></li>
-            <li><a href="about.html">BOUTIQUE</a></li>
-            <li><a href="services.html">FILMS</a></li>
-            <li><a href="contact.html">PARCS</a>
+            <li><a href="index.html">BOUTIQUE</a></li>
+            <li><a href="index.html">FILMS</a></li>
+            <li><a href="index.html">PARCS</a>
+            <li><a href="search.html">Recherche Intelligente</a>
             </li>
           </ul>
         </nav>
@@ -125,16 +130,10 @@
     </div>
     </div>
   </section>
-  <div class="dropdown">
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
   <footer>
     <div class="footer">
       <p>Suivez Disney Sur:</p>
+      <br>
       <div class="footerIcons">
         <i class="fa-brands fa-facebook fa-lg"></i>
         <i class="fa-brands fa-instagram fa-lg"></i>
@@ -159,5 +158,10 @@
     </div>
   </footer>
 </body>
-
+<script>
+  const CMFlatButton = new ContextMateFButton({
+        apiKey: "26f1bfda-80f9-446c-b630-2a10ad8c0c0a",
+        theme: "light",
+      });
+</script>
 </html>

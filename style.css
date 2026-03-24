@@ -11,9 +11,20 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
+/* body {
   max-width: 1600px;
+  min-height: 100%;
   margin: auto;
+} */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#test {
+  background-color: #000000;
 }
 
 p {
